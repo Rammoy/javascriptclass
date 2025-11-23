@@ -3,24 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>javascript</title>
-
-    <style>
-        .box{
-            width: 500px;
-            height: 500px;
-            background:green;
-            border: 2px solid #000;
-        }
-    </style>
 </head>
 
-<div class="box">
 
-</div>
 <body>
 
+<p class="titl">ODD EVEN CHECKER</p>
+<div class="evenodd">
+    
+    <div class="btninput-wrp">
+        <input type="number" placeholder="Check Your Odd And Even" class="evenoddinput">
+    <button class="evenodd_check">Click</button>
+    </div>
 
- <script src="./script.js"></script>   
+    <div class="evenodd_output">
+        <h1 class="oden_output"></h1>
+    </div>
+</div> 
+
+<p class="titl">CUARD OPARATION</p>
+
+<div class="counter">
+    <h2 class="countoutput">0</h2>
+    <div class="counter-wrpr">
+        <button class="increase_btn">Increase</button>
+        <button class="decrease_btn">Decrease</button>
+        <button class="reset_btn">Reset</button>
+    </div>
+</div>
+
+
+
+
+ <script src="./script.js"></script>  
+ 
+ <script src="function.js"></script>
 </body>
 </html>

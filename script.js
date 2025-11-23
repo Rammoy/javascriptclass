@@ -75,3 +75,33 @@ num4 > 0 ? console.log("Big Number") : console.log("Small Number");
 const num5 = 51;
 num5 > 90 && num5 <= 95 ? console.log("You Are Gread A") :
 num5 > 50 ? console.log("This is a Pass Number") : num5 < 0 ? console.log("This is Not A valid Number") : console.log("You are Fail");
+
+
+// switch 
+
+// const mark1 = 9;
+// switch(true){
+//     case mark1%2 === 0:
+//         console.log("Even")
+//         break;
+//         default:
+//             console.log("ODD");
+// }
+
+// const mak2 = 22;
+//     switch(true){
+//         case mak2 > 20:
+//             console.log("Mark is Better");
+//             case mak2 < 0:
+//                 console.log('Its Negative Mark');
+//                 default:
+//                     console.log("Zero")
+//     }
+
+
+// TEST WITH INPUT TYPE IS EVEN OR ODD
+
+
+
+
+
